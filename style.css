@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #F9F7F7;
+  color: #112D4E;
+}
+
+header {
+  background: #112D4E;
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+header h1 {
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 1px;
+}
+
+header p {
+  color: #DBE2EF;
+}
+
+main {
+  padding: 40px 20px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  color: #3F72AF;
+  border-bottom: 2px solid #3F72AF;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
+}
+
+.box {
+  background: #DBE2EF;
+  padding: 16px;
+  border-radius: 12px;
+}
+
+.teams {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.teams button,
+.quiz button {
+  background: #DBE2EF;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.teams button:hover,
+.quiz button:hover {
+  background: #3F72AF;
+  color: #F9F7F7;
+}
+
+.info-box {
+  background: #DBE2EF;
+  padding: 18px;
+  margin-top: 20px;
+  border-radius: 12px;
+}
+
+.quiz p {
+  margin-top: 15px;
+}
+
+footer {
+  background: #112D4E;
+  color: #DBE2EF;
+  text-align: center;
+  padding: 16px;
+}
+.quiz button {
+  margin: 6px 6px 12px 0;
+  transition: 0.3s ease;
+}

@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>ICC T20 World Cup 2026 – Team India Fan Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Premium Font -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <h1>ICC T20 World Cup 2026</h1>
+    <p>India & Sri Lanka | Supporting Team India for the 3rd Title 🇮🇳</p>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main>
+
+    <!-- ABOUT -->
+    <section>
+      <h2>About the Tournament</h2>
+      <p>
+        The ICC Men’s T20 World Cup 2026 will be jointly hosted by India and
+        Sri Lanka, bringing together 20 international teams competing for
+        cricket’s most prestigious T20 trophy.
+      </p>
+    </section>
+
+    <!-- VENUES -->
+    <section>
+      <h2>Host Venues</h2>
+      <div class="grid">
+        <div class="box">Narendra Modi Stadium – Ahmedabad</div>
+        <div class="box">Wankhede Stadium – Mumbai</div>
+        <div class="box">Eden Gardens – Kolkata</div>
+        <div class="box">M. Chinnaswamy Stadium – Bengaluru</div>
+        <div class="box">MA Chidambaram Stadium – Chennai</div>
+        <div class="box">R. Premadasa Stadium – Colombo</div>
+        <div class="box">Pallekele International Stadium – Kandy</div>
+      </div>
+    </section>
+
+    <!-- TEAMS -->
+    <section>
+      <h2>Participating Teams</h2>
+
+      <div class="teams">
+        <button onclick="showTeam('India')">India 🇮🇳</button>
+        <button onclick="showTeam('England')">England 🏴</button>
+        <button onclick="showTeam('Australia')">Australia 🇦🇺</button>
+        <button onclick="showTeam('Pakistan')">Pakistan 🇵🇰</button>
+        <button onclick="showTeam('Sri Lanka')">Sri Lanka 🇱🇰</button>
+        <button onclick="showTeam('West Indies')">West Indies 🌴</button>
+        <button onclick="showTeam('New Zealand')">New Zealand 🇳🇿</button>
+        <button onclick="showTeam('South Africa')">South Africa 🇿🇦</button>
+        <button onclick="showTeam('Afghanistan')">Afghanistan 🇦🇫</button>
+        <button onclick="showTeam('Ireland')">Ireland 🇮🇪</button>
+        <button onclick="showTeam('Scotland')">Scotland 🏴</button>
+        <button onclick="showTeam('Netherlands')">Netherlands 🇳🇱</button>
+        <button onclick="showTeam('Namibia')">Namibia 🇳🇦</button>
+        <button onclick="showTeam('Zimbabwe')">Zimbabwe 🇿🇼</button>
+        <button onclick="showTeam('Nepal')">Nepal 🇳🇵</button>
+        <button onclick="showTeam('Oman')">Oman 🇴🇲</button>
+        <button onclick="showTeam('UAE')">UAE 🇦🇪</button>
+        <button onclick="showTeam('USA')">USA 🇺🇸</button>
+        <button onclick="showTeam('Canada')">Canada 🇨🇦</button>
+        <button onclick="showTeam('Italy')">Italy 🇮🇹</button>
+      </div>
+
+      <div id="teamInfo" class="info-box">
+        <p>Select a team to view details.</p>
+      </div>
+    </section>
+
+    <!-- QUIZ -->
+    <section>
+      <h2>Ultimate Cricket Fan Quiz 🧠</h2>
+
+      <div class="quiz">
+
+        <div class="question">
+          <p><strong>Q1:</strong> Who won the first T20 World Cup?</p>
+          <button onclick="checkAnswer(this, true)">India</button>
+          <button onclick="checkAnswer(this, false)">Pakistan</button>
+        </div>
+
+        <div class="question">
+          <p><strong>Q2:</strong> Which country has won T20 WC twice?</p>
+          <button onclick="checkAnswer(this, true)">West Indies</button>
+          <button onclick="checkAnswer(this, false)">Australia</button>
+        </div>
+
+        <div class="question">
+          <p><strong>Q3:</strong> Which stadium hosted the 2011 WC final?</p>
+          <button onclick="checkAnswer(this, true)">Wankhede Stadium</button>
+          <button onclick="checkAnswer(this, false)">Eden Gardens</button>
+        </div>
+
+        <div class="question">
+          <p><strong>Q4:</strong> India won its 2nd T20 WC in which year?</p>
+          <button onclick="checkAnswer(this, true)">2024</button>
+          <button onclick="checkAnswer(this, false)">2016</button>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CRICKET LEGACY SECTION -->
+    <section>
+      <h2>Cricket: Legacy, Culture & Global Impact</h2>
+
+      <p>
+        Cricket is not just a sport — it is a legacy passed across generations.
+        From its traditional roots to the modern T20 revolution, cricket has
+        continuously evolved while preserving its values of discipline,
+        strategy, and sportsmanship.
+      </p>
+
+      <p>
+        The introduction of T20 cricket reshaped the global cricketing
+        landscape. Faster matches, high-intensity moments, and wider global
+        reach transformed cricket into an inclusive and commercially powerful
+        sport.
+      </p>
+
+      <p>
+        Nations such as India, England, Australia, and the West Indies have
+        defined different eras of dominance, while associate nations now have
+        opportunities to compete and grow on the world stage.
+      </p>
+
+      <p>
+        Hosting the ICC T20 World Cup 2026 places India and Sri Lanka at the
+        center of global cricket once again — combining passion, history, and
+        unmatched fan engagement.
+      </p>
+
+      <p><strong>
+        As the world gathers in 2026, cricket stands as a unifying force,
+        blending tradition, innovation, and the dreams of millions.
+      </strong></p>
+    </section>
+    <section>
+  <h2>Fans, Emotions & Match-Day Rituals</h2>
+
+  <p>
+    For cricket fans, a match day is not just another day on the calendar.
+    Jerseys are worn with pride, superstitions are followed without question,
+    and every ball feels personal. From early-morning alarms to last-over
+    nail-biters, fans live every moment with the team.
+  </p>
+
+  <p>
+    Many fans have their own rituals — sitting in the same spot, avoiding
+    certain conversations during tense overs, or watching matches with the
+    same group of people year after year. These rituals create a deep emotional
+    bond that goes far beyond the scoreboard.
+  </p>
+</section>
+
+<section>
+  <h2>Stadium Chants & Crowd Energy</h2>
+
+  <p>
+    Indian stadiums are known for their electrifying atmosphere. The roar of
+    the crowd, synchronized claps, and chants of “India! India!” or
+    “Sachin! Sachin!” have turned stadiums into fortresses over the years.
+  </p>
+
+  <p>
+    During high-pressure moments, the crowd often becomes the twelfth player.
+    A single boundary can lift an entire stadium, while a wicket can silence
+    thousands — proving how deeply fans are emotionally invested in the game.
+  </p>
+</section>
+
+<section>
+  <h2>Iconic Fan Memories</h2>
+
+  <p>
+    Every cricket fan remembers exactly where they were during iconic moments —
+    the 2007 T20 World Cup win, the unforgettable victories under lights, and
+    celebrations that spilled onto streets across the country.
+  </p>
+
+  <p>
+    These moments are shared across generations. Parents introduce their
+    children to the game, stories are retold every World Cup, and legends live
+    on not just in record books, but in fan conversations and emotions.
+  </p>
+</section>
+
+<section>
+  <h2>Why Team India Feels Personal</h2>
+
+  <p>
+    Supporting Team India is not just about winning trophies — it is about
+    identity, pride, and collective emotion. Victories feel like national
+    celebrations, while defeats are felt deeply across millions of hearts.
+  </p>
+
+  <p>
+    The pursuit of a third T20 World Cup title in 2026 represents more than
+    history. It represents belief, resilience, and the dreams of fans who
+    continue to support the team through every high and low.
+  </p>
+
+  <p><strong>
+    For Indian fans, cricket is not watched — it is lived.
+  </strong></p>
+</section>
+
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>🏏 ICC T20 World Cup 2026 Fan Page | Bleed Blue 🇮🇳</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
