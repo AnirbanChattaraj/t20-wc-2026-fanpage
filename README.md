@@ -49,9 +49,8 @@ The team used GitHub for version control, allowing both members to contribute in
 
 ## 🌐 Live Demo
 
-👉 
-
+👉 https://anirbanchattaraj.github.io/t20-wc-2026-fanpage/
 ---
 
-## 📂 Project Structure
+
 
