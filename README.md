@@ -36,7 +36,7 @@ The goal of the project is to demonstrate collaborative web development using fu
 
 ---
 
-## 👥 Team Collaboration:
+## 👥 Team Collaboration
 
 This project was developed collaboratively by:
 
