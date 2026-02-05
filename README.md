@@ -13,7 +13,7 @@ The goal of the project is to demonstrate collaborative web development using fu
 
 ---
 
-## 🚀 Features:
+## 🚀 Features
 
 - Tournament introduction and fan-focused theme
 - Information about 20 participating nations
@@ -26,7 +26,7 @@ The goal of the project is to demonstrate collaborative web development using fu
 
 ---
 
-## 🛠 Technologies Used:
+## 🛠 Technologies Used
 
 - **HTML5** – structure and layout
 - **CSS3** – styling and visual design
